@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E088E33216A421C009BA622 /* BreakingTheLaw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E088E32216A421C009BA622 /* BreakingTheLaw.mp3 */; };
+		4E49CD24216E726E00A1BAAE /* quiz_Rocka_Rolla.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E49CD23216E726E00A1BAAE /* quiz_Rocka_Rolla.png */; };
+		4E49CD26216F929C00A1BAAE /* quiz_Redeemer of Souls.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E49CD25216F929C00A1BAAE /* quiz_Redeemer of Souls.png */; };
+		4E5DC600216763CF00E7C7B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5DC5FF216763CF00E7C7B6 /* AppDelegate.swift */; };
+		4E5DC602216763CF00E7C7B6 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5DC601216763CF00E7C7B6 /* GameController.swift */; };
+		4E5DC605216763CF00E7C7B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E5DC603216763CF00E7C7B6 /* Main.storyboard */; };
+		4E5DC607216763CF00E7C7B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E5DC606216763CF00E7C7B6 /* Assets.xcassets */; };
+		4E5DC60A216763CF00E7C7B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E5DC608216763CF00E7C7B6 /* LaunchScreen.storyboard */; };
+		4E5DC61721676BEB00E7C7B6 /* quiz_Sad Wings of Destiny.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5DC61621676BEB00E7C7B6 /* quiz_Sad Wings of Destiny.png */; };
+		4E5DC61921676C8800E7C7B6 /* quiz_Sin After Sin.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5DC61821676C8800E7C7B6 /* quiz_Sin After Sin.png */; };
+		4E5DC61B21676D9C00E7C7B6 /* quiz_Stained Class.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5DC61A21676D9C00E7C7B6 /* quiz_Stained Class.png */; };
+		4E5DC61D21676DF700E7C7B6 /* quiz_Killing Machine.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5DC61C21676DF700E7C7B6 /* quiz_Killing Machine.png */; };
+		4E5DC61F21676E2800E7C7B6 /* quiz_British Steel.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5DC61E21676E2800E7C7B6 /* quiz_British Steel.png */; };
+		4E5DC62121676E6200E7C7B6 /* quiz_Point of Entry.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5DC62021676E6200E7C7B6 /* quiz_Point of Entry.png */; };
+		4E5DC62521676EEC00E7C7B6 /* quiz_Defenders of the Faith.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5DC62421676EEC00E7C7B6 /* quiz_Defenders of the Faith.png */; };
+		4E5DC62721676F2A00E7C7B6 /* quiz_Turbo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5DC62621676F2A00E7C7B6 /* quiz_Turbo.png */; };
+		4E5DC62921676F5200E7C7B6 /* quiz_Ram It Down.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5DC62821676F5200E7C7B6 /* quiz_Ram It Down.png */; };
+		4E5DC62B21676F9100E7C7B6 /* quiz_Painkiller.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5DC62A21676F9100E7C7B6 /* quiz_Painkiller.png */; };
+		4E5DC62D21676FBF00E7C7B6 /* quiz_Jugulator.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5DC62C21676FBF00E7C7B6 /* quiz_Jugulator.png */; };
+		4E5DC62F2167704E00E7C7B6 /* quiz_Screaming for Vengeance.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5DC62E2167704E00E7C7B6 /* quiz_Screaming for Vengeance.png */; };
+		4E5DC631216770FE00E7C7B6 /* quiz_Demolition.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5DC630216770FE00E7C7B6 /* quiz_Demolition.png */; };
+		4E5DC6332167712C00E7C7B6 /* quiz_Angel of Retribution.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5DC6322167712C00E7C7B6 /* quiz_Angel of Retribution.png */; };
+		4E5DC6352167715800E7C7B6 /* quiz_Nostradamus.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5DC6342167715800E7C7B6 /* quiz_Nostradamus.png */; };
+		4E5DC639216771A000E7C7B6 /* quiz_Firepower.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E5DC638216771A000E7C7B6 /* quiz_Firepower.png */; };
+		4E5DC63B2167969400E7C7B6 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5DC63A2167969400E7C7B6 /* Settings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E088E32216A421C009BA622 /* BreakingTheLaw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BreakingTheLaw.mp3; sourceTree = "<group>"; };
+		4E49CD23216E726E00A1BAAE /* quiz_Rocka_Rolla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quiz_Rocka_Rolla.png; sourceTree = "<group>"; };
+		4E49CD25216F929C00A1BAAE /* quiz_Redeemer of Souls.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quiz_Redeemer of Souls.png"; sourceTree = "<group>"; };
+		4E5DC5FC216763CF00E7C7B6 /* JudasPriestQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JudasPriestQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E5DC5FF216763CF00E7C7B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E5DC601216763CF00E7C7B6 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		4E5DC604216763CF00E7C7B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E5DC606216763CF00E7C7B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E5DC609216763CF00E7C7B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E5DC60B216763CF00E7C7B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E5DC61621676BEB00E7C7B6 /* quiz_Sad Wings of Destiny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quiz_Sad Wings of Destiny.png"; sourceTree = "<group>"; };
+		4E5DC61821676C8800E7C7B6 /* quiz_Sin After Sin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quiz_Sin After Sin.png"; sourceTree = "<group>"; };
+		4E5DC61A21676D9C00E7C7B6 /* quiz_Stained Class.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quiz_Stained Class.png"; sourceTree = "<group>"; };
+		4E5DC61C21676DF700E7C7B6 /* quiz_Killing Machine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quiz_Killing Machine.png"; sourceTree = "<group>"; };
+		4E5DC61E21676E2800E7C7B6 /* quiz_British Steel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quiz_British Steel.png"; sourceTree = "<group>"; };
+		4E5DC62021676E6200E7C7B6 /* quiz_Point of Entry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quiz_Point of Entry.png"; sourceTree = "<group>"; };
+		4E5DC62421676EEC00E7C7B6 /* quiz_Defenders of the Faith.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quiz_Defenders of the Faith.png"; sourceTree = "<group>"; };
+		4E5DC62621676F2A00E7C7B6 /* quiz_Turbo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quiz_Turbo.png; sourceTree = "<group>"; };
+		4E5DC62821676F5200E7C7B6 /* quiz_Ram It Down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quiz_Ram It Down.png"; sourceTree = "<group>"; };
+		4E5DC62A21676F9100E7C7B6 /* quiz_Painkiller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quiz_Painkiller.png; sourceTree = "<group>"; };
+		4E5DC62C21676FBF00E7C7B6 /* quiz_Jugulator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quiz_Jugulator.png; sourceTree = "<group>"; };
+		4E5DC62E2167704E00E7C7B6 /* quiz_Screaming for Vengeance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quiz_Screaming for Vengeance.png"; sourceTree = "<group>"; };
+		4E5DC630216770FE00E7C7B6 /* quiz_Demolition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quiz_Demolition.png; sourceTree = "<group>"; };
+		4E5DC6322167712C00E7C7B6 /* quiz_Angel of Retribution.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quiz_Angel of Retribution.png"; sourceTree = "<group>"; };
+		4E5DC6342167715800E7C7B6 /* quiz_Nostradamus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quiz_Nostradamus.png; sourceTree = "<group>"; };
+		4E5DC638216771A000E7C7B6 /* quiz_Firepower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quiz_Firepower.png; sourceTree = "<group>"; };
+		4E5DC63A2167969400E7C7B6 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E5DC5F9216763CF00E7C7B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E088E31216A4208009BA622 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				4E088E32216A421C009BA622 /* BreakingTheLaw.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		4E58C3D521D6355D002407FA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4E58C3D621D6359E002407FA /* UI */,
+				4E088E31216A4208009BA622 /* Music */,
+				4E58C3D721D635BC002407FA /* Settings */,
+				4E5DC61321676B3F00E7C7B6 /* AlbumImages */,
+				4E5DC606216763CF00E7C7B6 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4E58C3D621D6359E002407FA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4E5DC603216763CF00E7C7B6 /* Main.storyboard */,
+				4E5DC608216763CF00E7C7B6 /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		4E58C3D721D635BC002407FA /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4E5DC63A2167969400E7C7B6 /* Settings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		4E58C3D921D635DE002407FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E5DC601216763CF00E7C7B6 /* GameController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E5DC5F3216763CF00E7C7B6 = {
+			isa = PBXGroup;
+			children = (
+				4E5DC5FE216763CF00E7C7B6 /* JudasPriestQuiz */,
+				4E5DC5FD216763CF00E7C7B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E5DC5FD216763CF00E7C7B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E5DC5FC216763CF00E7C7B6 /* JudasPriestQuiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E5DC5FE216763CF00E7C7B6 /* JudasPriestQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				4E5DC5FF216763CF00E7C7B6 /* AppDelegate.swift */,
+				4E58C3D921D635DE002407FA /* Controller */,
+				4E58C3D521D6355D002407FA /* Resources */,
+				4E5DC60B216763CF00E7C7B6 /* Info.plist */,
+			);
+			path = JudasPriestQuiz;
+			sourceTree = "<group>";
+		};
+		4E5DC61321676B3F00E7C7B6 /* AlbumImages */ = {
+			isa = PBXGroup;
+			children = (
+				4E5DC61621676BEB00E7C7B6 /* quiz_Sad Wings of Destiny.png */,
+				4E5DC61821676C8800E7C7B6 /* quiz_Sin After Sin.png */,
+				4E5DC61A21676D9C00E7C7B6 /* quiz_Stained Class.png */,
+				4E5DC61E21676E2800E7C7B6 /* quiz_British Steel.png */,
+				4E49CD23216E726E00A1BAAE /* quiz_Rocka_Rolla.png */,
+				4E5DC62021676E6200E7C7B6 /* quiz_Point of Entry.png */,
+				4E5DC62A21676F9100E7C7B6 /* quiz_Painkiller.png */,
+				4E5DC630216770FE00E7C7B6 /* quiz_Demolition.png */,
+				4E5DC62821676F5200E7C7B6 /* quiz_Ram It Down.png */,
+				4E5DC6322167712C00E7C7B6 /* quiz_Angel of Retribution.png */,
+				4E49CD25216F929C00A1BAAE /* quiz_Redeemer of Souls.png */,
+				4E5DC62E2167704E00E7C7B6 /* quiz_Screaming for Vengeance.png */,
+				4E5DC6342167715800E7C7B6 /* quiz_Nostradamus.png */,
+				4E5DC638216771A000E7C7B6 /* quiz_Firepower.png */,
+				4E5DC62C21676FBF00E7C7B6 /* quiz_Jugulator.png */,
+				4E5DC61C21676DF700E7C7B6 /* quiz_Killing Machine.png */,
+				4E5DC62621676F2A00E7C7B6 /* quiz_Turbo.png */,
+				4E5DC62421676EEC00E7C7B6 /* quiz_Defenders of the Faith.png */,
+			);
+			path = AlbumImages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E5DC5FB216763CF00E7C7B6 /* JudasPriestQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E5DC60E216763CF00E7C7B6 /* Build configuration list for PBXNativeTarget "JudasPriestQuiz" */;
+			buildPhases = (
+				4E5DC5F8216763CF00E7C7B6 /* Sources */,
+				4E5DC5F9216763CF00E7C7B6 /* Frameworks */,
+				4E5DC5FA216763CF00E7C7B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JudasPriestQuiz;
+			productName = JudasPriestQuest;
+			productReference = 4E5DC5FC216763CF00E7C7B6 /* JudasPriestQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E5DC5F4216763CF00E7C7B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Cat;
+				TargetAttributes = {
+					4E5DC5FB216763CF00E7C7B6 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 4E5DC5F7216763CF00E7C7B6 /* Build configuration list for PBXProject "JudasPriestQuiz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E5DC5F3216763CF00E7C7B6;
+			productRefGroup = 4E5DC5FD216763CF00E7C7B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E5DC5FB216763CF00E7C7B6 /* JudasPriestQuiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E5DC5FA216763CF00E7C7B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E49CD24216E726E00A1BAAE /* quiz_Rocka_Rolla.png in Resources */,
+				4E5DC639216771A000E7C7B6 /* quiz_Firepower.png in Resources */,
+				4E5DC60A216763CF00E7C7B6 /* LaunchScreen.storyboard in Resources */,
+				4E5DC61B21676D9C00E7C7B6 /* quiz_Stained Class.png in Resources */,
+				4E5DC61D21676DF700E7C7B6 /* quiz_Killing Machine.png in Resources */,
+				4E49CD26216F929C00A1BAAE /* quiz_Redeemer of Souls.png in Resources */,
+				4E5DC62721676F2A00E7C7B6 /* quiz_Turbo.png in Resources */,
+				4E5DC62521676EEC00E7C7B6 /* quiz_Defenders of the Faith.png in Resources */,
+				4E5DC607216763CF00E7C7B6 /* Assets.xcassets in Resources */,
+				4E088E33216A421C009BA622 /* BreakingTheLaw.mp3 in Resources */,
+				4E5DC61F21676E2800E7C7B6 /* quiz_British Steel.png in Resources */,
+				4E5DC61921676C8800E7C7B6 /* quiz_Sin After Sin.png in Resources */,
+				4E5DC62D21676FBF00E7C7B6 /* quiz_Jugulator.png in Resources */,
+				4E5DC631216770FE00E7C7B6 /* quiz_Demolition.png in Resources */,
+				4E5DC6332167712C00E7C7B6 /* quiz_Angel of Retribution.png in Resources */,
+				4E5DC62B21676F9100E7C7B6 /* quiz_Painkiller.png in Resources */,
+				4E5DC605216763CF00E7C7B6 /* Main.storyboard in Resources */,
+				4E5DC6352167715800E7C7B6 /* quiz_Nostradamus.png in Resources */,
+				4E5DC61721676BEB00E7C7B6 /* quiz_Sad Wings of Destiny.png in Resources */,
+				4E5DC62921676F5200E7C7B6 /* quiz_Ram It Down.png in Resources */,
+				4E5DC62F2167704E00E7C7B6 /* quiz_Screaming for Vengeance.png in Resources */,
+				4E5DC62121676E6200E7C7B6 /* quiz_Point of Entry.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E5DC5F8216763CF00E7C7B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E5DC63B2167969400E7C7B6 /* Settings.swift in Sources */,
+				4E5DC602216763CF00E7C7B6 /* GameController.swift in Sources */,
+				4E5DC600216763CF00E7C7B6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E5DC603216763CF00E7C7B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E5DC604216763CF00E7C7B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E5DC608216763CF00E7C7B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E5DC609216763CF00E7C7B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E5DC60C216763CF00E7C7B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E5DC60D216763CF00E7C7B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E5DC60F216763CF00E7C7B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JudasPriestQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = myProject.JudasPriestQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4E5DC610216763CF00E7C7B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JudasPriestQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = myProject.JudasPriestQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E5DC5F7216763CF00E7C7B6 /* Build configuration list for PBXProject "JudasPriestQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E5DC60C216763CF00E7C7B6 /* Debug */,
+				4E5DC60D216763CF00E7C7B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E5DC60E216763CF00E7C7B6 /* Build configuration list for PBXNativeTarget "JudasPriestQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E5DC60F216763CF00E7C7B6 /* Debug */,
+				4E5DC610216763CF00E7C7B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E5DC5F4216763CF00E7C7B6 /* Project object */;
+}
