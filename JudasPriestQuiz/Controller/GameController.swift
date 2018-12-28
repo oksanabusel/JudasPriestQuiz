@@ -93,7 +93,6 @@ extension GameController {
       guard let element = pictures.randomElement() else {
         return
       }
-      
       albumImage.image = UIImage.init(named: element)
       currentAnswer = processName(name: element)
       
